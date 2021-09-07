@@ -644,6 +644,7 @@ Link back to top
   border-radius: var(--radius);
   visibility: hidden;
   z-index: -5;
+  transition: var(--transition);
 }
 
 .show-link {
