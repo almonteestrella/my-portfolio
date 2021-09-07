@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+ <!-- font-awesome -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />   
+ 
+ <!-- styles css -->
+ <link rel="stylesheet" href="styles.css" />
+
+  
+ <title>JUAN ALMONTE | PORTFOLIO</title>
+</head>
+<body>
+ <header id="home">
+   <nav id="nav">
+     <div class="nav-center">
+       <div class="nav-header">
+
+         <p>J <span class="nav-logo">A</span></p>
+    
+          <button class="closeNavBtn"><i class="fas fa-bars"></i></button>
+       </div>
+
+       <div class="links-container">
+
+         <ul class="links">
+           <li><a href="#home" class="scroll-link">home</a></li>
+           <li><a href="#about" class="scroll-link">about</a></li>
+           <li><a href="#projects" class="scroll-link">work</a></li>
+           <li><a href="#contact" class="scroll-link">contact</a></li>
+         </ul>
+       </div>
+      </div>
+     </nav>
+     
+
+   <div class="banner">
+    <h1>i am juan the <span class="txt-type" data-wait="3000" data-words='["Front End Developer"]'></span>
+    </h1>
+   
+     <p>front end and javascript developer</p>
+     <a href="#contact" class="btn banner-btn">hire me</a>
+   </div>
+ </header>
+
+ <!-- about section -->
+ <section id="about" class="section">
+   <div class="section-center about">
+      <article class="about-img">
+        <img src="./images/portfolio.jpeg" alt="" class="about-photo">
+      </article>
+      <article class="about-desc">
+        <!-- title -->
+        <div class="title">
+          <h2>description</h2>
+          <div class="underline"></div>
+          <!-- end of title -->
+          <p>My qualitication include building UIs using HTML, CSS and JAVASCRIPT. Also, implamentacion of css frameworks like
+            BOOTSTRAP and MATERIALIZE.</p>
+          <!-- social icons -->
+          <ul class="social-icons">
+            <li><a href="https://github.com/almonteestrella" class="social-icon" target="_blank"><i
+                  class="fab fa-github"></i></a>
+            </li>
+            <li><a href="https://www.linkedin.com/in/juanalmontewebdeveloper/" class="social-icon" target="_blank"><i
+                  class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="https://twitter.com/almonteestrella" class="social-icon" target="_blank"><i
+                  class="fab fa-twitter"></i></a></li>
+          </ul>
+      </article>
+     </div>
+     
+   </div>
+ </section>
+
+ <!-- projects -->
+ <section id="projects" class="section">
+    <div class="title">
+      <h2>latest projects</h2>
+      <div class="underline"></div>
+      <p>please,check out some of my projects</p>
+    </div>
+
+    <div class="section-center project-center">
+      <!-- single card -->
+      <article class="project-card">
+        <div class="project-img-container">
+          <img src="/images/html-css.jpg" alt="html and css" class="project-img">
+          <a href="inner.html" class="project-icon"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+        <!-- project-info -->
+        <div class="project-info">
+          <h3>mini projects</h3>
+          <span>html</span>
+          <span>css</span>
+        </div>
+        <div class="project-link-container">
+          <a href="https://github.com/almonteestrella/mini-projects-html-css" class="project-link" target="_blank"><i class="fab fa-github"></i> source code</a>
+        </div>
+        
+
+      </article>
+      <!-- end single card -->
+    </div>
+ </section>
+
+ <!-- contact -->
+ <section class="section">
+
+ 
+  <div class="section-center contact-center">
+    <div class="connect">
+      <!-- video -->
+      <video controls autoplay muted loop class="video-container">
+        <source src="./images/connect.mp4" type="video/mp4" >
+        sorry, your browser does not support embedded videos.
+      </video>
+    </div>
+   
+
+          <!-- contact info -->
+          <div class="contact-info"  id="contact">
+            <h2>contact me</h2>
+            <div class="underline"></div>
+            <p>If you are looking to get ahold of me, you can send me an email to <a href="mailTo:almonteestrella@gmail.com"
+                target="_blank">MY EMAIL</a></p>
+            <P>Also, you can reach me at: <a href="https://www.linkedin.com/in/juanalmontewebdeveloper/" class="social-icon"
+                target="_blank"><i class="fab fa-linkedin-in"></i></a> <a href="https://twitter.com/almonteestrella"
+                class="social-icon" target="_blank"><i class="fab fa-twitter"></i></a></P>
+          </div>
+  </div>  
+</section>
+  <!-- footer -->
+  <footer id="footer">
+  <p>&copy; <span id="date"></span> <span id="name">JUAN ALMONTE</span></p>
+  </footer>
+
+  <!-- back to top -->
+    <a href="#home" class="scroll-link top-link"><i class="fas fa-arrow-up"></i></a>
+ <script src="index.js"></script>
+</body>
+</html>
